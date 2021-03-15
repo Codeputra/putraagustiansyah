@@ -22,34 +22,47 @@ body {
 /* akhir Jumbotron Area */
 
 /* semua Judul */
-.text-about,
-.text-portfolio,
-.text-contact {
-  font-size: 28px;
+.judul-about,
+.judul-portfolio,
+.judul-contact {
+  font-size: 26px;
 }
 /* Akhir semua judul */
 
 hr {
   width: 150px;
   border: 3px solid #666;
+  margin-bottom: 30px;
 }
 
+/* Portfolio */
 .portfolio {
   background-color: #eee;
+}
+
+.judul-portfolio {
+  margin-top: 20px;
 }
 
 section {
   min-height: 400px;
 }
+/* Akhir Portfolio */
 
+/* Contact */
 .contact {
   min-height: 800px;
 }
 
+.judul-contact {
+  margin-top: 20px;
+}
+/* Akhir Contact */
+
 footer {
   position: absolute;
   width: 100%;
-  height: 105px;
+  height: 130px;
   background-color: #333;
   padding-top: 15px;
 }
@@ -59,7 +72,7 @@ footer p {
   font-size: 0.9em;
 }
 
-/* DEKSTOP VERSION */
+/* ============================= DEKSTOP VERSION ============================= */
 @media (min-width: 992px) {
   /* Jumbotron Area */
   .jumbotron img {
